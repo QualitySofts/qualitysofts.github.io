@@ -3,13 +3,14 @@ baseurl: ""
 title: QualitySofts
 description: Software Service Provider
 navbar-links:
-  Serices: "services"
+  Services: "services"
   Stories: "projects"
   Blog: "blog"
   AboutUS:
     - Who We are: "about"
     - Culture: "culture"
     - Contact: "contact"
+    - JoinUs: "career"
 avatar: "/img/avatar.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
