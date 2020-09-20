@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "https://cse-eee-jobs-bd.github.io"
+url: "https://QualitySofts.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,18 +14,23 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: CSE/EEE Jobs in Bangladesh
+title: QualitySofts
 
 # Short description of your site
-description: IT Employer-Employee collaboration Platform
+description: Software Service Provider
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "CSE/EEE Jobs in Bangladesh facebook group"
-  Open Learning: "openlearning"
-  Projects: "projects"
+  Serices: "services"
+  Stories: "projects"
+  Blog: "blog"
+  AboutUS:
+    - Who We are: "about"
+    - Culture: "culture"
+    - Contact: "contact"
+
 #  Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
 #    - Learn markdown: "http://www.markdowntutorial.com/"
@@ -59,7 +64,7 @@ avatar: "/img/avatar.jpg"
 author:
   name: Shantonu Sarker
   email: "CSE/EEE Jobs in Bangladesh"
-  github: cse-eee-jobs-bd
+  github: QualitySofts
   twitter: sarkershantonu
   linkedin: sarkershantonu
   xing: sarkershantonu
@@ -206,7 +211,9 @@ prose:
           help: "Check to publish post, uncheck to hide."
 
 plugins:
-  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-github-metadata
+  - jekyll-youtube
 
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
